@@ -35,17 +35,6 @@
   background-color: #ffffff;
   border: 1px solid #2a69a6;
 }
-img {
-  width: 26px;
-  height: 26px;
-  color: #ffffff;
-}
-
-img:hover {
-  width: 26px;
-  height: 26px;
-  fill: #2a69a6;
-}
 
 .service-column__heading {
   font-family: "Proxima Nova";
