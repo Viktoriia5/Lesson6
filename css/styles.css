@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.services {
+  height: 289px;
+  max-width: 1550px;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  background-color: rgb(193, 250, 231);
+}
+.service-column {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.service-column__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 63px;
+  border: 1 px solid #1275b9;
+  background-color: #1275b9;
+  border-radius: 50%;
+}
+.service-column__image:hover {
+  background-color: #ffffff;
+  border: 1px solid #2a69a6;
+}
+img {
+  width: 26px;
+  height: 26px;
+  color: #ffffff;
+}
+
+img:hover {
+  width: 26px;
+  height: 26px;
+  fill: #2a69a6;
+}
+
+.service-column__heading {
+  font-family: "Proxima Nova";
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+.service-column__text {
+  font-family: "Proxima Nova";
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #9d9d9d;
+  letter-spacing: 0.35px;
+}
