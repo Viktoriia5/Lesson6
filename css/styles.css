@@ -35,6 +35,11 @@
   background-color: #ffffff;
   border: 1px solid #2a69a6;
 }
+svg {
+  width: 26px;
+  height: 26px;
+  color: #ffffff;
+}
 
 svg:hover {
   width: 26px;
